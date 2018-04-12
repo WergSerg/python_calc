@@ -1,6 +1,6 @@
 
 def Welcom():
-    string='Всем привет, вы вошли в калькулятор'
+    string='Калькулятор'
     print (string)
     len_string = int(len(string))
     print('|'*len_string)
