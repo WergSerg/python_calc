@@ -11,9 +11,9 @@ def Calculator():
     print(" "*10)
     operator = input ("введите оператор ")
     print(" "*10)
-    namber_1 = int(input("превое число: "))
+    number_1 = int(input("превое число: "))
     print(" "*10)
-    namber_2 = int(input("второе число: "))
+    number_2 = int(input("второе число: "))
     
     if operator =='+':
         print ('{}+{}='.format(namber_1,namber_2),namber_1+namber_2 )
